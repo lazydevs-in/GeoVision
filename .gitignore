@@ -1,0 +1,24 @@
+# Local env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+
+# Data & large artifacts (plan §3)
+data/raw/**
+data/interim/
+data/processed/
+*.tif
+*.tiff
+*.npy
+models/*.pt
+
+# Keep boundary provenance tracked
+!data/raw/boundaries/
+!data/raw/boundaries/SOURCE.md
+
+# Notebooks checkpoints
+.ipynb_checkpoints/

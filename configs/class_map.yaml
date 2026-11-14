@@ -1,0 +1,23 @@
+# ESA WorldCover → GeoVision 4 classes (plan §4.3)
+# WorldCover class codes: https://esa-worldcover.org/en/data-access
+source: "ESA WorldCover"
+version: "v200"
+classes:
+  0: vegetation
+  1: built-up
+  2: water
+  3: barren
+# Map each WorldCover code to class ID 0..3
+remap:
+  10: 0   # Tree cover
+  20: 0   # Shrubland
+  30: 0   # Grassland
+  40: 0   # Cropland
+  50: 1   # Built-up
+  60: 3   # Bare / sparse vegetation
+  70: 2   # Snow and ice
+  80: 2   # Permanent water bodies
+  90: 0   # Herbaceous wetland (green-focused)
+  95: 0   # Mangroves
+  100: 0  # Moss and lichen
+nodata: 255
