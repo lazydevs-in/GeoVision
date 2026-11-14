@@ -1,0 +1,21 @@
+city: "kolkata"
+city_full: "Kolkata Municipal Corporation (KMC)"
+n_wards: 141
+crs_export: "EPSG:4326"
+crs_area: "EPSG:32645"          # UTM 45N
+bbox: [88.24, 22.45, 88.46, 22.63]   # lon_min, lat_min, lon_max, lat_max
+map_center: [22.54, 88.35]      # lat, lon for Folium
+years: [2018, 2019, 2020, 2021, 2022, 2023, 2024]
+season_start: "10-01"
+season_end: "02-28"
+bands: ["B2", "B3", "B4", "B8", "B11", "B12"]
+cloud_pct_max: 40
+scale_m: 10
+tile_size: 256
+classes: ["vegetation", "built-up", "water", "barren"]
+ndvi_green_threshold: 0.35
+held_out_forecast_year: 2024
+train_years_forecast: [2018, 2019, 2020, 2021, 2022, 2023]
+gee_project: "geovision-514712"
+drive_folder: "green_cover_fyp"
+wards_source_url: "https://raw.githubusercontent.com/datameet/Municipal_Spatial_Data/master/Kolkata/kolkata.geojson"
