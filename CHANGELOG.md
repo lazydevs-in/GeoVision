@@ -10,4 +10,5 @@ Single progress log for GeoVision. Written by agents on both devices. Rules live
 ## [Unreleased]
 
 ### 2026-11-14
+- [Debayan] ADDED (Phase 0) Locked-stack `requirements.txt` (unpinned; pin in Phase 11) — `requirements.txt` — Human next: `python3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt` when ready to install
 - [Debayan] ADDED (setup) Agent rules and skills — `AGENTS.md`, `.cursor/skills/ponytail/SKILL.md`, `.cursor/skills/geovision-phase/SKILL.md`, `CHANGELOG.md`, `.gitattributes` — Human next: copy `docs/agent-build-plan.md` into the repo, set the friend's name in `AGENTS.md`, commit

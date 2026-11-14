@@ -1,0 +1,33 @@
+# GeoVision — locked free stack (plan §2.3 / concrete-finish-plan §1)
+# Pin versions in Phase 11 before Streamlit Community Cloud deploy.
+# Python 3.11+ recommended.
+
+# Data access (GEE)
+earthengine-api
+geemap
+
+# Geo stack
+numpy
+pandas
+rasterio
+geopandas
+scikit-learn
+pyyaml
+
+# Segmentation + forecast DL (train on Colab/Kaggle GPU; CPU ok for small local tests)
+torch
+segmentation-models-pytorch
+
+# Dashboard
+streamlit
+folium
+streamlit-folium
+plotly
+
+# Optional thin API (plan §2.3; build after dashboard if needed)
+fastapi
+uvicorn
+
+# Dev / acceptance (AGENTS.md)
+pytest
+ruff
